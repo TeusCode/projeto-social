@@ -22,14 +22,14 @@ main{
     }
 
 section#celular{
-position:absolute;
-top:50%;
-left:50%;
-transform:translate(-50%, -50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
 
-width: 311px;
-height: 624px;
-background: url(../imagens/frame-iphone.png);}
+    width: 311px;
+    height: 624px;
+    background: url(../imagens/frame-iphone.png);}
 
 iframe{
     position:absolute;
@@ -37,4 +37,21 @@ iframe{
     height: 465px;
     left:26px;
     top:83px;
+}
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img {
+    width:50px;
+    border-radius:50%;
+    margin:10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border:2px solid white;
+    transform: translate(-3px,-2px);
+    transition: transform .3s;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.468);
 }
