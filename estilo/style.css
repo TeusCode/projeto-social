@@ -36,7 +36,8 @@ iframe{
     width: 260px;
     height: 465px;
     left:26px;
-    top:83px;
+    top:86px;
+    overflow: hidden;
 }
 section#redes-sociais{
     text-align: right;
